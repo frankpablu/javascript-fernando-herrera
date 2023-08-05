@@ -1,24 +1,30 @@
 
-var persona = {
-    nombre: "Juana",
-    apellido: "Herrera",
-    edad: 25,
-    direccion: {
-        pais: "Costa Rica",
-        ciudad: "San José",
-        edificio:{
-            nombre: "Edificio principal",
-            telefono: "2222-3333"
-        }
-    }
-};
 
 
-var campo = "edad";
+function primeraFuncion(){
 
-console.log(persona[campo]);
+    console.log("Invocada")
+     
+ }
 
 
-console.log(persona.edad2);
+
+var miFuncion = primeraFuncion;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
